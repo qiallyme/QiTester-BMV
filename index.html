@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QiAlly • Indiana Driver's Mastery</title>
+    <meta name="theme-color" content="#0b0f14" />
+    <style>
+      :root{
+        --bg:#0b0f14;
+        --card:#101826cc;
+        --glass:rgba(255,255,255,0.06);
+        --border:rgba(255,255,255,0.12);
+        --fg:#e6eef7;
+        --muted:#9fb0c3;
+        --accent:#7ac7ff;
+        --success:#2bd576;
+        --danger:#ff6b6b;
+        --warn:#ffd166;
+      }
+      html,body,#root{height:100%}
+      body{margin:0;background:radial-gradient(1200px 800px at 20% 0%, #102030 0%, #0b0f14 60%, #070a0f 100%);color:var(--fg);font:16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
+      .glass{background:var(--glass);backdrop-filter: blur(16px); border:1px solid var(--border); border-radius:24px; box-shadow: 0 10px 40px rgba(0,0,0,.35);}
+      .btn{cursor:pointer; padding:.75rem 1rem; border-radius:14px; border:1px solid var(--border); background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)); color:var(--fg)}
+      .btn:hover{transform:translateY(-1px); box-shadow:0 8px 24px rgba(0,0,0,.25)}
+      .btn.primary{border-color:rgba(122,199,255,.35); box-shadow: inset 0 0 0 1px rgba(122,199,255,.35)}
+      .btn.ghost{background:transparent}
+      .tag{font-size:12px;color:var(--muted);border:1px solid var(--border);padding:.2rem .5rem;border-radius:999px}
+      .progress{height:10px;border-radius:999px;background:rgba(255,255,255,.07);overflow:hidden}
+      .progress>span{display:block;height:100%;background:linear-gradient(90deg, #4ad0ff, #7affb3)}
+      .pill{padding:.25rem .6rem;border-radius:999px;border:1px solid var(--border);font-size:12px;color:var(--muted)}
+      .answer{display:block;margin:.4rem 0;padding:.75rem 1rem;border-radius:14px;border:1px solid var(--border);background:rgba(255,255,255,.04);cursor:pointer}
+      .answer.correct{border-color:rgba(43,213,118,.5)}
+      .answer.wrong{border-color:rgba(255,107,107,.5)}
+      .grid{display:grid;gap:1rem}
+      @media(min-width:900px){ .grid.cols-2{grid-template-columns:1.3fr .7fr} }
+      code{font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:12px;color:#c8d8ff}
+      .small{font-size:12px;color:var(--muted)}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
