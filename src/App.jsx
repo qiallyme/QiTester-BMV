@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useEffect } from 'react'
-import bank from './questions.json'
+import bank from '../questions.json'
 
 const REQUIRED_STREAK = 4
 

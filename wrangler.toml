@@ -1,0 +1,10 @@
+name = "qi-tester-bmv"
+compatibility_date = "2024-01-15"
+
+[env.production]
+name = "qi-tester-bmv"
+
+[[pages_builds]]
+command = "npm run build"
+cwd = "."
+watch_dir = "src"
