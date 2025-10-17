@@ -1,0 +1,548 @@
+export default [
+  {
+    "id": "S-001",
+    "q": "What does a downward-pointing triangle sign indicate?",
+    "choices": [
+      "Stop",
+      "Yield",
+      "Do Not Enter",
+      "No Passing"
+    ],
+    "answer": "Yield",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Triangular downward equals Yield. You must slow and give right-of-way."
+  },
+  {
+    "id": "S-002",
+    "q": "A pentagon-shaped sign indicates:",
+    "choices": [
+      "School zone/crossing",
+      "Railroad crossing",
+      "Stop",
+      "Yield"
+    ],
+    "answer": "School zone/crossing",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Five-sided pentagon marks school advance/zone/crossing."
+  },
+  {
+    "id": "S-003",
+    "q": "A round, yellow sign with an 'X' and two R's means:",
+    "choices": [
+      "Railroad crossing advance warning",
+      "No passing",
+      "Work zone",
+      "Detour"
+    ],
+    "answer": "Railroad crossing advance warning",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Only round warning sign: railroad ahead."
+  },
+  {
+    "id": "S-004",
+    "q": "A red octagon means:",
+    "choices": [
+      "No entry",
+      "Stop",
+      "Yield",
+      "Emergency only"
+    ],
+    "answer": "Stop",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Octagon is unique to STOP."
+  },
+  {
+    "id": "S-005",
+    "q": "A white rectangular sign with 'SPEED LIMIT 45' indicates:",
+    "choices": [
+      "Minimum speed",
+      "Maximum legal speed",
+      "Advisory speed",
+      "Suggested speed"
+    ],
+    "answer": "Maximum legal speed",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Regulatory speed sign indicates legal max."
+  },
+  {
+    "id": "S-006",
+    "q": "Yellow diamond with a deer silhouette:",
+    "choices": [
+      "Animal crossing",
+      "Hunting area",
+      "Farm road",
+      "Zoo nearby"
+    ],
+    "answer": "Animal crossing",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Warns of frequent animal crossings."
+  },
+  {
+    "id": "S-007",
+    "q": "Yellow diamond with car and squiggly lines:",
+    "choices": [
+      "Slippery when wet",
+      "Winding road",
+      "Loose gravel",
+      "Road narrows"
+    ],
+    "answer": "Slippery when wet",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Traction may be reduced; slow down."
+  },
+  {
+    "id": "S-008",
+    "q": "Pennant-shaped yellow sign on left side indicates:",
+    "choices": [
+      "No passing zone",
+      "Lane ends",
+      "Narrow bridge",
+      "Steep hill"
+    ],
+    "answer": "No passing zone",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Unique pennant indicates beginning of no-passing area."
+  },
+  {
+    "id": "S-009",
+    "q": "Red circle with a slash over a left arrow:",
+    "choices": [
+      "No left turn",
+      "Left turn only",
+      "Left lane ends",
+      "Keep left"
+    ],
+    "answer": "No left turn",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Prohibits left turns at the location."
+  },
+  {
+    "id": "S-010",
+    "q": "Blue service sign with gas pump icon:",
+    "choices": [
+      "Fuel nearby",
+      "No idling",
+      "Hazardous material",
+      "Truck route"
+    ],
+    "answer": "Fuel nearby",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Blue service signs indicate services such as fuel."
+  },
+  {
+    "id": "S-011",
+    "q": "Orange diamond signs are used for:",
+    "choices": [
+      "Recreation",
+      "Work zones",
+      "School zones",
+      "Railroad"
+    ],
+    "answer": "Work zones",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Orange = temporary traffic control/work zones."
+  },
+  {
+    "id": "S-012",
+    "q": "Yellow diamond 'MERGE' or arrows converging:",
+    "choices": [
+      "Lane ends, merge ahead",
+      "Passing allowed",
+      "Divided highway begins",
+      "Trucks only"
+    ],
+    "answer": "Lane ends, merge ahead",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Traffic must merge; adjust speed/position."
+  },
+  {
+    "id": "S-013",
+    "q": "Divided highway begins sign means:",
+    "choices": [
+      "Median ahead splitting directions",
+      "One-way begins",
+      "Toll road begins",
+      "Truck restriction"
+    ],
+    "answer": "Median ahead splitting directions",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Roadway divides; follow alignment."
+  },
+  {
+    "id": "S-014",
+    "q": "Divided highway ends sign means:",
+    "choices": [
+      "Median ends",
+      "Shoulder ends",
+      "Lane added",
+      "Detour"
+    ],
+    "answer": "Median ends",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Two-way traffic without median beyond this point."
+  },
+  {
+    "id": "S-015",
+    "q": "Yellow diamond with traffic signal symbol:",
+    "choices": [
+      "Traffic signal ahead",
+      "Stop sign ahead",
+      "Four-way stop",
+      "No signals here"
+    ],
+    "answer": "Traffic signal ahead",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Prepare for signalized intersection ahead."
+  },
+  {
+    "id": "S-016",
+    "q": "White rectangular 'KEEP RIGHT' with island symbol:",
+    "choices": [
+      "Drive on left",
+      "Pass on left",
+      "Keep to right of divider",
+      "Right lane only"
+    ],
+    "answer": "Keep to right of divider",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Guide vehicles around an obstruction."
+  },
+  {
+    "id": "S-017",
+    "q": "Yellow diamond 'HILL' with truck descending:",
+    "choices": [
+      "Steep downgrade ahead",
+      "Truck lane",
+      "Runaway truck ramp",
+      "Weight station"
+    ],
+    "answer": "Steep downgrade ahead",
+    "domain": "signs",
+    "ref": "Manual: Signs",
+    "why": "Use lower gear; control speed."
+  },
+  {
+    "id": "S-018",
+    "q": "Flashing red signal means:",
+    "choices": [
+      "Proceed slowly",
+      "Stop, then go when clear",
+      "Yield only",
+      "Lane closed"
+    ],
+    "answer": "Stop, then go when clear",
+    "domain": "signs",
+    "ref": "Manual: Signals",
+    "why": "Same as a stop sign: full stop, then proceed when safe."
+  },
+  {
+    "id": "S-019",
+    "q": "Flashing yellow signal means:",
+    "choices": [
+      "Stop and wait",
+      "Proceed with caution",
+      "Lane closed",
+      "Turn only"
+    ],
+    "answer": "Proceed with caution",
+    "domain": "signs",
+    "ref": "Manual: Signals",
+    "why": "Warning to slow and proceed carefully."
+  },
+  {
+    "id": "R-020",
+    "q": "When may you turn left on red in Indiana?",
+    "choices": [
+      "From a one-way onto another one-way after stop",
+      "Anytime if clear",
+      "Only with a green arrow",
+      "Never"
+    ],
+    "answer": "From a one-way onto another one-way after stop",
+    "domain": "rules",
+    "ref": "Manual: Signals/Turns",
+    "why": "Indiana allows left on red only from a one-way to a one-way after a complete stop and yielding."
+  },
+  {
+    "id": "R-021",
+    "q": "Headlights must be used:",
+    "choices": [
+      "Between sunset and sunrise or visibility < 500 ft",
+      "Only in rain",
+      "Only after 9 PM",
+      "Only on rural roads"
+    ],
+    "answer": "Between sunset and sunrise or visibility < 500 ft",
+    "domain": "rules",
+    "ref": "Manual: Equipment",
+    "why": "Required at night and when visibility is reduced."
+  },
+  {
+    "id": "R-022",
+    "q": "At a flashing red light you must:",
+    "choices": [
+      "Slow down",
+      "Stop completely, then proceed when clear",
+      "Speed up to clear",
+      "Yield only to buses"
+    ],
+    "answer": "Stop completely, then proceed when clear",
+    "domain": "rules",
+    "ref": "Manual: Signals",
+    "why": "Treat as stop sign."
+  },
+  {
+    "id": "R-023",
+    "q": "School bus with flashing red lights is stopped on a two-lane road. You must:",
+    "choices": [
+      "Pass slowly",
+      "Stop in both directions",
+      "Stop only if behind bus",
+      "Proceed if no children visible"
+    ],
+    "answer": "Stop in both directions",
+    "domain": "rules",
+    "ref": "Manual: School buses",
+    "why": "On two-lane or undivided roads, all traffic stops."
+  },
+  {
+    "id": "R-024",
+    "q": "On multi-lane highways, the left lane is for:",
+    "choices": [
+      "Traveling at any speed",
+      "Passing and faster traffic",
+      "Trucks only",
+      "Parking"
+    ],
+    "answer": "Passing and faster traffic",
+    "domain": "rules",
+    "ref": "Manual: Lane use",
+    "why": "Keep right except to pass."
+  },
+  {
+    "id": "R-025",
+    "q": "What is the typical speed limit on rural interstate highways for passenger vehicles unless posted otherwise?",
+    "choices": [
+      "55 mph",
+      "60 mph",
+      "65 mph",
+      "70 mph"
+    ],
+    "answer": "70 mph",
+    "domain": "rules",
+    "ref": "Manual: Speed limits",
+    "why": "Indiana rural interstates commonly 70 mph unless posted otherwise."
+  },
+  {
+    "id": "R-026",
+    "q": "If you miss your exit on an interstate:",
+    "choices": [
+      "Back up with hazards",
+      "Make a U-turn in median",
+      "Go to next exit",
+      "Stop and check GPS"
+    ],
+    "answer": "Go to next exit",
+    "domain": "rules",
+    "ref": "Manual: Interstates",
+    "why": "Never reverse or turn across median."
+  },
+  {
+    "id": "R-027",
+    "q": "Legal BAC limit for drivers 21+ in Indiana is:",
+    "choices": [
+      "0.10%",
+      "0.08%",
+      "0.05%",
+      "Any detectable"
+    ],
+    "answer": "0.08%",
+    "domain": "rules",
+    "ref": "Manual: Impaired driving",
+    "why": "0.08% or higher is per se intoxication."
+  },
+  {
+    "id": "R-028",
+    "q": "You approach an emergency vehicle stopped on the roadside with flashing lights. Indiana's Move Over law requires:",
+    "choices": [
+      "Maintain speed",
+      "Move over or slow to safe speed",
+      "Stop completely",
+      "Honk and pass"
+    ],
+    "answer": "Move over or slow to safe speed",
+    "domain": "rules",
+    "ref": "Manual: Move Over",
+    "why": "Change lanes away or slow significantly if not possible."
+  },
+  {
+    "id": "R-029",
+    "q": "Following distance under good conditions should be at least:",
+    "choices": [
+      "1 second",
+      "2 seconds",
+      "3 seconds",
+      "Half a car length"
+    ],
+    "answer": "3 seconds",
+    "domain": "rules",
+    "ref": "Manual: Following distance",
+    "why": "Use 3-second rule; increase with speed/weather."
+  },
+  {
+    "id": "R-030",
+    "q": "When skidding on ice you should:",
+    "choices": [
+      "Brake hard",
+      "Steer into the skid and ease off accelerator",
+      "Accelerate",
+      "Turn opposite the skid sharply"
+    ],
+    "answer": "Steer into the skid and ease off accelerator",
+    "domain": "rules",
+    "ref": "Manual: Adverse conditions",
+    "why": "Regain traction by steering in direction of rear-wheel slide."
+  },
+  {
+    "id": "R-031",
+    "q": "When approaching a railroad crossing with no warning devices, you should:",
+    "choices": [
+      "Speed up to cross quickly",
+      "Stop only if a train is visible within 1 mile",
+      "Slow and be prepared to stop",
+      "Proceed without caution"
+    ],
+    "answer": "Slow and be prepared to stop",
+    "domain": "rules",
+    "ref": "Manual: Railroad",
+    "why": "Look, listen, slow; stop if needed."
+  },
+  {
+    "id": "R-032",
+    "q": "It is illegal to park:",
+    "choices": [
+      "Within 20 feet of a crosswalk at an intersection",
+      "More than 12 inches from curb",
+      "In front of a driveway",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "domain": "rules",
+    "ref": "Manual: Parking",
+    "why": "Each listed location is prohibited."
+  },
+  {
+    "id": "R-033",
+    "q": "Seat belts are required for:",
+    "choices": [
+      "Driver only",
+      "Front passengers only",
+      "All occupants with few exceptions",
+      "No one over 18"
+    ],
+    "answer": "All occupants with few exceptions",
+    "domain": "rules",
+    "ref": "Manual: Seat belts",
+    "why": "Indiana law requires seat belts for all occupants."
+  },
+  {
+    "id": "R-034",
+    "q": "At four-way stops, who goes first?",
+    "choices": [
+      "Driver on the left",
+      "Driver who arrived first",
+      "Largest vehicle",
+      "Fastest car"
+    ],
+    "answer": "Driver who arrived first",
+    "domain": "rules",
+    "ref": "Manual: Right of way",
+    "why": "If two arrive same time, yield to right."
+  },
+  {
+    "id": "R-035",
+    "q": "You must dim high beams when following within:",
+    "choices": [
+      "100 ft",
+      "200 ft",
+      "300 ft",
+      "500 ft"
+    ],
+    "answer": "200 ft",
+    "domain": "rules",
+    "ref": "Manual: Lights",
+    "why": "Dim within 200 ft of vehicle ahead."
+  },
+  {
+    "id": "R-036",
+    "q": "You must dim high beams when meeting an oncoming vehicle within:",
+    "choices": [
+      "200 ft",
+      "300 ft",
+      "400 ft",
+      "500 ft"
+    ],
+    "answer": "500 ft",
+    "domain": "rules",
+    "ref": "Manual: Lights",
+    "why": "Dim high beams within 500 ft of oncoming."
+  },
+  {
+    "id": "R-037",
+    "q": "If a tire blows out:",
+    "choices": [
+      "Brake hard immediately",
+      "Hold wheel firmly and ease off gas",
+      "Swerve to shoulder while braking",
+      "Accelerate"
+    ],
+    "answer": "Hold wheel firmly and ease off gas",
+    "domain": "rules",
+    "ref": "Manual: Emergencies",
+    "why": "Maintain control; brake gently when slowed."
+  },
+  {
+    "id": "R-038",
+    "q": "Construction zone fines are:",
+    "choices": [
+      "Lower than normal",
+      "Same as normal",
+      "Higher and may double",
+      "Only for speeding over 20 mph"
+    ],
+    "answer": "Higher and may double",
+    "domain": "rules",
+    "ref": "Manual: Work zones",
+    "why": "Enhanced penalties in work zones."
+  },
+  {
+    "id": "R-039",
+    "q": "When two lanes merge into one:",
+    "choices": [
+      "Speed up to get ahead",
+      "Alternate zipper merge and adjust speed",
+      "Stop and take turns",
+      "Right lane has priority"
+    ],
+    "answer": "Alternate zipper merge and adjust speed",
+    "domain": "rules",
+    "ref": "Manual: Merging",
+    "why": "Cooperative zipper merge recommended."
+  }
+]
